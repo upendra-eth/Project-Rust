@@ -1,4 +1,4 @@
-#macros
+# Macros
 
 macros are a way to write code that generates more code. This can be really useful for tasks like reducing boilerplate or abstracting away repetitive tasks.
 
