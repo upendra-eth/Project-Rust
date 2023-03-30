@@ -1,3 +1,5 @@
+#macros
+
 macros are a way to write code that generates more code. This can be really useful for tasks like reducing boilerplate or abstracting away repetitive tasks.
 
 When you create a macro, you have the ability to define different "placeholders" in the macro's input, which are called Fragment Specifiers. These placeholders act like variables that can be used to capture specific types of Rust code from the input to the macro.
