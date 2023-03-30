@@ -40,10 +40,15 @@ A macro is like a set of instructions that tells your friend (the Rust compiler)
 
 That's where the Fragment Specifiers come in. They tell your friend which types of toys to play with. Here are some examples:
 
+
 $ident: This tells your friend to only play with toys that have names, like "Red Ball" or "Fast Car."
+
 $expr: This tells your friend to only play with toys that can do something, like a remote-controlled car that can move or a ball that can bounce.
+
 $ty: This tells your friend to only play with toys that belong to a specific category, like all the cars or all the dolls.
+
 $pat: This tells your friend to only play with toys that have a specific design, like all the toys that are red or all the toys that have wheels.
+
 And so on. Each Fragment Specifier is like a special instruction that tells your friend what to do with your toys. Does that make sense?
 
 
