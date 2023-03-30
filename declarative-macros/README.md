@@ -6,17 +6,29 @@ Here are some examples of the Fragment Specifiers and what they do:
 
 
 $ident: Use this when you want to capture an identifier (name) from the input to the macro.
+
 $expr: Use this when you want to capture an expression (piece of code that evaluates to a value) from the input to the macro.
+
 $ty: Use this when you want to capture a type (classification of data) from the input to the macro.
+
 $pat: Use this when you want to capture a pattern (way of matching and deconstructing values) from the input to the macro.
+
 $path: Use this when you want to capture a path (way of referring to an item in the code) from the input to the macro.
+
 $vis: Use this when you want to capture a visibility specifier (determines if an item can be accessed from outside the current module) from the input to the macro.
+
 $tt: Use this when you want to capture a single token tree (sequence of tokens that represents a single syntactic construct) from the input to the macro.
+
 $block: Use this when you want to capture a block of code (enclosed in curly braces) from the input to the macro.
+
 $stmt: Use this when you want to capture a statement (piece of code that performs an action) from the input to the macro.
+
 $item: Use this when you want to capture an item (module-level declaration that defines functionality) from the input to the macro.
+
 $meta: Use this when you want to capture a metadata item (additional information associated with code) from the input to the macro.
+
 $lifetime: Use this when you want to capture a lifetime specifier (specifies how long a borrow lasts) from the input to the macro.
+
 $literal: Use this when you want to capture a literal value (value that appears directly in the code) from the input to the macro.
 
 
