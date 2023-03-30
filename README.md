@@ -11,7 +11,7 @@ Learning Rust can be a little challenging, but with this repository, you can lea
 So, grab a cup of chai, fire up your Rust compiler, and let's start coding!
 
 
-###################################################################################################################################
+#################################################################################
 
 
 here's a lighthearted joke about Rust:
@@ -22,6 +22,8 @@ Because she couldn't get any type of satisfaction!
 
 Don't worry, Rust is a fantastic programming language, and I'm sure you'll love learning it!
 
+
+#################################################################################
 
 
 Alright, here's another Rust joke for you:
