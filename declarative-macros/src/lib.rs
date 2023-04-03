@@ -9,10 +9,10 @@ macro_rules! makevec {
         Vec::new()
     };
     ($element:expr) => {
-        
-        let mut x = Vec::new();
+
+      {  let mut x = Vec::new();
         x.push($element);
-        x
+        x}
     };
 }
 
@@ -31,7 +31,7 @@ fn single() {
 
 #[test]
 fn new_func(){
-    let x:Vec<u32> = makevec![50];
-    println!("msdm");
+    let x= makevec![50];
     assert_eq!(x.len(), 1);
+    assert_eq!(x[0], 50);
 }

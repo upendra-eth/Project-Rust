@@ -108,3 +108,8 @@ macro_rules! string_to_int {
 
 string_to_int!(i32);
 In this example, the macro string_to_int takes in a type ($input) and generates a function that converts a string to that type of integer. The $ty Fragment Specifier is used to capture the integer type (i32 in this case), which is then used to perform the conversion.
+
+
+
+Procedural Macros for Generating Code from Attributes
+The second form of macros is the procedural macro, which acts more like a function (and is a type of procedure). Procedural macros accept some code as an input, operate on that code, and produce some code as an output rather than matching against patterns and replacing the code with other code as declarative macros do. The three kinds of procedural macros are custom derive, attribute-like, and function-like, and all work in a similar fashion.
