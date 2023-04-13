@@ -15,8 +15,10 @@ x86_64-unknown-linux-gnu
 armv7-unknown-linux-gnueabihf
 aarch64-apple-darwin
 i686-pc-windows-msvc
+
 wasm32-unknown-unknown
 
 The Rust target triple is used by the Rust compiler and other tools like cargo and rustup to determine how to generate machine code for a specific target platform. By specifying a target triple, you can cross-compile Rust code to run on different architectures, operating systems, and environments without having to switch between development machines.
-
+ 
+ thank you
 
